@@ -1,0 +1,40 @@
+.form{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+  border: 2px solid orangered;
+  width: 20rem;
+  left: 35%;
+  margin: 7rem 0;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+}
+
+.name{
+  height: 2rem;
+  font-size: medium;
+  margin-bottom: 0.5rem;
+}
+
+.email{
+  height: 2rem;
+  font-size: medium;
+  margin: 0.5rem 0 0.5rem 0;
+
+}
+
+.message{
+  height: 2rem;
+  font-size: medium;
+  margin: 0.5rem 0 0.5rem 0;
+  padding-bottom: 6rem;
+
+}
+
+.button{
+  height: 2rem;
+}
+/* import { useForm, ValidationError } from '@formspree/react'; */
